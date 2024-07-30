@@ -11,6 +11,7 @@ config.autoAddCss = false;
 library.add(faAward, faTrophy, faMedal, faUserGraduate, faGem);
 
 const Award = ({ title, subTitle, faIcon }) => {
+  //TODO: add tooltip to explain the award
   return (
     <Box className="award" display="flex" alignItems="center" gap={2}>
       <FontAwesomeIcon icon={faIcon ?? "fa-solid fa-award"} />
