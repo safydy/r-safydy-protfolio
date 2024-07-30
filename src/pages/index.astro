@@ -51,6 +51,40 @@ const projects = (await getCollection('work'))
 			</header>
 
 			<Skills />
+
+			<section class="section with-background bg-variant">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Awards / Nominations</h3>
+				</header>
+				<div class="gallery">
+					<Grid variant="small">
+						<Award
+							client:only="react"
+							title="Unleash + Impact"
+							subTitle="2023 (Viamo Inc.)"/>
+						<Award
+							client:only="react"
+							title="Delight + Unleash"
+							subTitle="2021 (Viamo Inc.)"
+							faIcon="fa-solid fa-trophy"/>
+						<Award
+							client:only="react"
+							title="Delight"
+							subTitle="2020 (Viamo Inc.)"
+							faIcon="fa-solid fa-gem"/>
+						<Award
+							client:only="react"
+							title="Developer of the year"
+							subTitle="2018 (HNI - Values Awards)"
+							faIcon="fa-solid fa-medal"/>
+						<Award
+							client:only="react"
+							title="Valedictorian [Master degree]"
+							subTitle="2007-2012, ESPA University"
+							faIcon="fa-solid fa-user-graduate"/>
+					</Grid>
+				</div>
+			</section>
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
@@ -77,40 +111,6 @@ const projects = (await getCollection('work'))
 						View All
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
-				</div>
-			</section>
-
-			<section class="section with-background bg-variant">
-				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Awards / Nominations</h3>
-				</header>
-				<div class="gallery">
-					<Grid variant="small">
-						<Award
-							client:only="react"
-							title="Unleash + Impact"
-							subTitle="2023 (Viamo Inc.)"/>
-						<Award
-							client:only="react"
-							title="Delight + Unleash"
-							subTitle="2023 (Viamo Inc.)"
-							faIcon="fa-solid fa-trophy"/>
-						<Award
-							client:only="react"
-							title="Delight"
-							subTitle="2020 (Viamo Inc.)"
-							faIcon="fa-solid fa-gem"/>
-						<Award
-							client:only="react"
-							title="Developer of the year"
-							subTitle="2018 (HNI - Values Awards)"
-							faIcon="fa-solid fa-medal"/>
-						<Award
-							client:only="react"
-							title="Valedictorian [Master degree]"
-							subTitle="2007-2012, ESPA University"
-							faIcon="fa-solid fa-user-graduate"/>
-					</Grid>
 				</div>
 			</section>
 
