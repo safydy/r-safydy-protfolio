@@ -83,27 +83,33 @@ const projects = (await getCollection('work'))
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Awards / Nominations</h3>
-					<p>
-						I have been fortunate enough to receive praise for my work in several publications. Take
-						a look below to learn more.
-					</p>
 				</header>
 				<div class="gallery">
 					<Grid variant="small">
 						<Award
 							client:only="react"
-							year="2018"
-							title="Best Developer"/>
+							title="Unleash + Impact"
+							subTitle="2023 (Viamo Inc.)"/>
 						<Award
 							client:only="react"
-							year="2018"
-							title="Best Developer"
+							title="Delight + Unleash"
+							subTitle="2023 (Viamo Inc.)"
 							faIcon="fa-solid fa-trophy"/>
 						<Award
 							client:only="react"
-							year="2018"
-							title="Best Developer"
+							title="Delight"
+							subTitle="2020 (Viamo Inc.)"
+							faIcon="fa-solid fa-gem"/>
+						<Award
+							client:only="react"
+							title="Developer of the year"
+							subTitle="2018 (HNI - Values Awards)"
 							faIcon="fa-solid fa-medal"/>
+						<Award
+							client:only="react"
+							title="Valedictorian [Master degree]"
+							subTitle="2007-2012, ESPA University"
+							faIcon="fa-solid fa-user-graduate"/>
 					</Grid>
 				</div>
 			</section>

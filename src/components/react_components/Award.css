@@ -1,0 +1,18 @@
+.award {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--gray-300);
+
+    & .svg-inline--fa {
+        width: 75px;
+    }
+
+    & .award-content {
+        & .content-text {
+            min-width: 12rem;
+        }
+
+
+    }
+}
