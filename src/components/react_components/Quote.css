@@ -1,19 +1,20 @@
-.mention-card {
+.MuiPaper-root {
     display: flex;
-    height: 7rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    max-width: 30rem;
     border: 1px solid var(--gray-800);
-    border-radius: 1.5rem;
-    color: var(--gray-300);
+    border-radius: 1.5rem !important;
+
+    & .MuiCardContent-root {
+        & .MuiTypography-root {
+            color: var(--gray-300);
+        }
+    }
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-sm);
 }
 
 @media (min-width: 50em) {
-    .mention-card {
+    .MuiPaper-root {
         border-radius: 1.5rem;
-        height: 9.5rem;
     }
 }

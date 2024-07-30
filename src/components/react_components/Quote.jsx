@@ -4,21 +4,20 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-// import './Quote.css';
+import './Quote.css';
 
 function Quote({ avatar, quote, author }) {
   return (
-    <Card className="mention-card">
+    <Card className="mention-quote">
       <CardContent>
-        <Typography variant="h6" component="div" align="center">
+        <Typography variant="h6" component="div" align="center" style={{ fontStyle: 'italic' }}>
           " {quote} "
         </Typography>
         <Box display="flex" justifyContent="center" alignItems="center">
-          <Avatar alt={author} src={avatar} />
-          {/*color="text.secondary"*/}
-          <Typography variant="body2" component="div" sx={{ ml: 1 }}>
-            - {author}
+          <Typography variant="body2" component="div" sx={{ mr: 2 }}>
+            {author}&nbsp;&nbsp;-
           </Typography>
+          <Avatar alt={author} src={avatar} />
         </Box>
       </CardContent>
     </Card>
