@@ -26,10 +26,10 @@ function Quote({ avatar, quote, author }) {
           <FontAwesomeIcon className="quote-icon icon-right" icon="fa-solid fa-quote-right"/>
         </div>
         <Box display="flex" justifyContent="center" alignItems="center">
-          <Typography variant="body2" component="div" sx={{ mr: 2 }}>
+          <Typography variant="body1" component="div" sx={{ mr: 2 }}>
             {author}&nbsp;&nbsp;-
           </Typography>
-          <Avatar alt={author} src={avatar} />
+          <Avatar alt={author} src={avatar} sx={{ width: 64, height: 64 }}/>
         </Box>
       </CardContent>
     </Card>
