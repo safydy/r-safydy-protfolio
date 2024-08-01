@@ -10,7 +10,6 @@ import Grid from '../components/Grid.astro';
 import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
-import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Quote from '../components/react_components/Quote.jsx';
 import Award from '../components/react_components/Award.jsx';
 
@@ -100,7 +99,7 @@ const projects = (await getCollection('work'))
 			<!--			{-->
 			<!--				projects.map((project) => (-->
 			<!--					<li>-->
-			<!--						<PortfolioPreview project={project} />-->
+			<!--						<PortfolioCard client:only="react" project={project} />-->
 			<!--					</li>-->
 			<!--				))-->
 			<!--			}-->
