@@ -1,5 +1,5 @@
 ---
-title: FLOIP	Project (Open Source)
+title: FLOIP	Project (Open Source, 2020-2023)
 publishDate: 2021-01-01 00:00:00
 img: /assets/flow-builder.png
 img_alt: Flow	Builder interface with a flowchart and a sidebar of components
@@ -18,7 +18,7 @@ The project is a collaboration between the Viamo Inc/ONA/InSTEDD/UNICEF/Turn/Wen
 The purpose of the project is to enable useful interoperability between Flow-based platforms, and to incentivize the joining of future software tools into an interoperable ecosystem.
 That required a standardization of the way flows are described and executed across different platforms.
 
-### My main contributions
+### Contributions
 
 Many [repos](https://github.com/FLOIP) were involved in this project, but my main contributions were specifically on 02	repos:
 - [Flow Builder](https://github.com/FLOIP/flow-builder): A visual interface for creating and editing flows.
@@ -40,11 +40,9 @@ Many [repos](https://github.com/FLOIP) were involved in this project, but my mai
   - adding CI/CD with Travis-CI, and the Github Pages	deployment.
 
 ### Main tech stacks
-
 -	Flow Runner: Typescript, Node, Json Schema
 - Flow Builder: Vuejs, Vuex/Pinia, Typescript, Json Schema Validator
 
 #### External resources
-
 - Github page link to [quick live demo the flow-builder](https://floip.github.io/flow-builder/#/)
 - [Flow specification](https://floip.gitbook.io/flow-specification)

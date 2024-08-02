@@ -31,3 +31,6 @@ I proposed light solution:
 My fellow developers found it useful and it was used in a few projects. It was a good learning experience for me as well.
 From the Github community, it was starred 5 times, forked 5 times.
 Then deprecated due to the lack of maintenance and the fact we transitioned to modern solutions (vuejs, reactjs).
+
+### Main tech stacks
+Js, Jquery, CSS, HTML
