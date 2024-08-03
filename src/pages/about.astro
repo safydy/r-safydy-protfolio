@@ -10,17 +10,21 @@ const currentYear = new Date().getFullYear();
 <BaseLayout title="About | Safidy Rambeloson" description="About Safidy Rambeloson Lorem Ipsum">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="More about me"
-				tagline="Thanks for visiting! Read on to learn more about me and my background."
-			>
+			<div class="about-hero">
+				<Hero
+					title="More about me"
+					tagline="Thanks for visiting! Read on to learn more about me and my background."
+					align="center"
+				>
+				</Hero>
 				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Safidy Rambeloson at work with a colleague"
+					class="about-avatar"
+					width="300"
+					height="450"
+					src="/assets/photo2.jpg"
+					alt="Safidy Rambeloson posing for a photo."
 				/>
-			</Hero>
+			</div>
 
 			<section>
 				<h2 class="section-title">Background</h2>
@@ -156,6 +160,10 @@ const currentYear = new Date().getFullYear();
 		display: flex;
 		flex-direction: column;
 		gap: 3.5rem;
+	}
+
+	.about-hero {
+		text-align: center;
 	}
 
 	img {
