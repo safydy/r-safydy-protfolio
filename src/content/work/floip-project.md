@@ -6,6 +6,7 @@ img_alt: Flow	Builder interface with a flowchart and a sidebar of components
 description: |
   Flows are a modern paradigm for describing the logic of digital information systems that interact with individuals, often for the purpose of (a) collecting data or (b) providing information through interactive requests.
 tags:
+  - Top 1 Contributor
   - Developer
   - Tech lead (Frontend)
 ---

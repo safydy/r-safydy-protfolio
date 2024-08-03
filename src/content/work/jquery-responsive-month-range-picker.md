@@ -6,6 +6,7 @@ img_alt: A screenshot of the month range picker in action
 description: |
   A simple Jquery plugin that allows users to select a range of months, on old jQuery projects.
 tags:
+  - Initiator & maintainer
   - Dev
 ---
 

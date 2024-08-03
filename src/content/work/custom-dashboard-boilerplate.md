@@ -6,6 +6,7 @@ img_alt: A screenshot of the custom dashboard boilerplate.
 description: |
   Laravel/Vuejs boilerplate for custom dashboards with complex features like authorization, data sync, ETL, visualization, data export, role/permissions, SMS/email notifications, map visualization, etc.
 tags:
+  - Top 1 Contributor
   - Dev
   - Tech lead
 ---
