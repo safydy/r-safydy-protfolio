@@ -3,56 +3,150 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+
+const currentYear = new Date().getFullYear();
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Safidy Rambeloson" description="About Safidy Rambeloson Lorem Ipsum">
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
+			<div class="about-hero">
+				<Hero
+					title="More about me"
+					tagline="Thanks for visiting! Read on to learn more about me and my background."
+					align="center"
+				>
+				</Hero>
 				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					class="about-avatar"
+					width="300"
+					height="450"
+					src="/assets/photo2.jpg"
+					alt="Safidy Rambeloson posing for a photo."
 				/>
-			</Hero>
+			</div>
 
 			<section>
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						I'm a tech enthusiast who turns bio chips and natural juice into lines of code &#128187;.
+						I fell in love with computers during high school. Started with MS Excel and Word, and now I code like a wizard &#129497;.
+						I earned a master degree in Computer Science and Telecommunications, laying the foundation for a robust career in tech.
 					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Education</h2>
+				<h2 class="section-title">Professional Experience Summary</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>
+						I bring a wealth of expertise and a passion for creating impactful, user-centric solutions.
+						With <b>over {currentYear - 2015} years of software engineering</b> experience,
+						including <b>{currentYear - 2018}+ years focused on building production-level SaaS products,
+						using modern frontend & backend technologies</b>: Vue.js, TypeScript, Node.js, Laravel/php, APIs implementations (REST, GraphQL),
+						and a variety of testing and CI/CD tools; ensuring the delivery of high-quality, maintainable, and scalable applications.
+						My experience on Design Systems and my dedication to continuous learning, knowledge sharing, and mentorship highlight my commitment to excellence and innovation.
+					</p>
+					&nbsp;
+					<p>
+						I thrive in collaborative environments (in office, hybrid or remote), working closely with global teams, product managers, designers, and developers to achieve shared goals.
+					</p>
+					&nbsp;
+					<p>
+						If you think we could shape the future together (professional position, volunteering, etc), and curious about my <b>FULL RESUME</b> which details
+						my accomplishments and recognitions, and showcases my ability to drive projects to success and foster a positive development experience;
+						then please <a href="#reach-out-to-me">reach out</a> to me.
+					</p>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Computer Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<h5>Frontend stack</h5>
+					<ul>
+						<li><b>Main:</b> Node.js, Webpack, Vue.js-Vuex/Pinia-Nuxt.js, React-Redux-Next.js, Astro</li>
+						<li><b>CSS Frameworks:</b> Bootstrap v3 and v4, Tailwind</li>
+						<li><b>Package/build managers:</b> yarn, npm, bower, lerna (by Nx)</li>
+						<li><b>Type checkers/formatters:</b> TypeScript (ES6+), ESLint</li>
+						<li><b>Browser storage:</b> Local Storage, IndexedDB</li>
+						<li><b>Testing:</b> Jest, Storyshot, Cypress</li>
+						<li><b>Design system & implementation:</b> Figma, Storybook</li>
+						<li><b>Web data visualization:</b> Highchart.js, C3js, D3js</li>
+						<li><b>Geo location & map APIs:</b> Google map, OpenLayers</li>
+						<li><b>Analytics:</b> Google Tag Manager, Google Analytics 4, Piwik</li>
+						<li><b>Extra powerful utils:</b> lodash.js, moment.js, axios, vueUse</li>
+					</ul>
+
+					<h5 class="mt-2">Backend stack</h5>
+					<ul>
+						<li><b>Backend framework/Language:</b> Laravel & Symfony/Php, Django/Python</li>
+						<li><b>Package managers:</b> composer, pip</li>
+						<li><b>API:</b> REST, GraphQL, Postman, Insomnia</li>
+						<li><b>Database:</b> Mysql, Postgresql, SQLite, Google Big Query, CouchDB</li>
+						<li><b>API/Cloud services:</b> Amazon AWS (S3, SES, SQS, SNS), Twilio Verify</li>
+						<li><b>Others:</b> RabbitMQ (queuing), Redis</li>
+					</ul>
+
+					<h5 class="mt-2">General software development</h5>
+					<ul>
+						<li><b>Versioning:</b> Git
+						<li><b>CI/CD:</b> Bitbucket pipelines, Github actions, Travis-CI, Jenkins</li>
+						<li><b>Logging:</b> Loggly, Logrocket</li>
+						<li><b>Virtualization/Containerization:</b> Docker, Vagrant, Virtual box</li>
+						<li><b>Product/Team management:</b> Agile/Scrum</li>
+						<li><b>Documentation:</b> Sphinx, .md files, Coda, Guru, Notion</li>
+						<li><b>Localization/i18n:</b> Laravel Localization, Custom localization with Google Spreadsheet</li>
+					</ul>
+
+					<h5 class="mt-2">Others</h5>
+					<ul>
+						<li><b>Research/BI stack:</b> PowerBI, Python data tools (Pandas, iPython notebook, Jupyter project), Google Looker Studio (former Data Studio)</li>
+						<li><b>Multimedia:</b> Adobe CC Packages</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education & certifications</h2>
+				<div class="content">
+					<ul>
+						<li>
+							<b>Certification:</b> I have many certifications under my belt, from Cryptography & algorithmic, to pure dev stack, to Data Sciences.
+							Feel free to check out my <a href="https://www.linkedin.com/in/safidy-rambeloson-64b403114/details/certifications/">LinkedIn certifications</a> for more details.
+						</li>
+						<li><b>Academic education:</b> Master’s Degree, Computer Science and Telecommunications - from <a href="https://www.polytechnique.mg/">ESPA University (Madagascar)</a></li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title">Languages</h2>
+				<div class="content">
+					<ul>
+						<li><b>Malagasy:</b> Native proficiency</li>
+						<li><b>French:</b> Native/Bilingual Proficiency (CLB 8)</li>
+						<li><b>English:</b> Professional Proficiency (CLB 7)</li>
+						<li><b>Spanish:</b> Elementary Proficiency (CLB 1)</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Hobbies</h2>
+				<div class="content">
+					<p>
+						I'm Passionate about digital arts, I often draw for fun or to express my ideas visually.
+						I have an insatiable curiosity. Whether it's reading dev blogs or watching inspirational channels
+						like <a href="https://www.youtube.com/@MarkRober">Mark Roberts</a>,
+						<a href="https://www.youtube.com/@Vox">Vox</a>,
+						<a href="https://www.youtube.com/@TED">Ted Talks</a>,
+						and <a href="https://www.youtube.com/@veritasium">Veritasium</a>;
+						I'm always learning.
+					</p>
+					<p>
+						Beyond tech, I enjoy RTS games like <a href="https://www.ageofempires.com/games/age-of-empires-iv/">Age of Empires IV</a>
+						and soccer simulation games like <a href="https://www.konami.com/efootball/en/">Konami eFootball</a>
+						or <a href="https://www.ea.com/en-ca/games/fifa">EA FIFA</a>.
+						I love connecting with nature &#127794; through paddleboarding, camping, sightseeing, and photography.
+					</p>
 				</div>
 			</section>
 		</main>
@@ -66,6 +160,10 @@ import Hero from '../components/Hero.astro';
 		display: flex;
 		flex-direction: column;
 		gap: 3.5rem;
+	}
+
+	.about-hero {
+		text-align: center;
 	}
 
 	img {
@@ -116,5 +214,9 @@ import Hero from '../components/Hero.astro';
 			display: contents;
 			font-size: var(--text-lg);
 		}
+	}
+
+	.mt-2 {
+		margin-top: 1.5rem;
 	}
 </style>
