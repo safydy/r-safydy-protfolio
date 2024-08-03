@@ -2,7 +2,7 @@
 title: Custom Dashboard Boilerplate - (Open Source, 2017-2018)
 publishDate: 2017-10-23 00:00:00
 img: /assets/hni-boilerplate.jpg
-img_alt: Soft pink and baby blue water ripples together in a subtle texture.
+img_alt: A screenshot of the custom dashboard boilerplate.
 description: |
   Laravel/Vuejs boilerplate for custom dashboards with complex features like authorization, data sync, ETL, visualization, data export, role/permissions, SMS/email notifications, map visualization, etc.
 tags:
