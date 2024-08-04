@@ -19,10 +19,10 @@ const { variant } = Astro.props;
 		padding: 0;
 	}
 
-	.grid.small {
-		grid-template-columns: 1fr 1fr;
-		gap: 1.5rem;
-	}
+	//.grid.small {
+	//	grid-template-columns: 1fr 1fr;
+	//	gap: 1.5rem;
+	//}
 
 	/* If last row contains only one item, make it span both columns. */
 	.grid.small > :global(:last-child:nth-child(odd)) {
@@ -30,10 +30,10 @@ const { variant } = Astro.props;
 	}
 
 	@media (min-width: 50em) {
-		.grid {
-			grid-template-columns: 1fr 1fr;
-			gap: 4rem;
-		}
+		//.grid {
+		//	grid-template-columns: 1fr 1fr;
+		//	gap: 4rem;
+		//}
 
 		.grid.offset {
 			--row-offset: 7.5rem;
