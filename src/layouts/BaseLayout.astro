@@ -18,6 +18,16 @@ const { title, description } = Astro.props;
 <html lang="en">
 	<head>
 		<MainHead title={title} description={description} />
+		<!--// Global site tag (gtag.js) - Google Analytics-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-JXLMXDGCK5"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				window.dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'G-JXLMXDGCK5');
+		</script>
 	</head>
 	<body>
 		<div class="stack backgrounds">
