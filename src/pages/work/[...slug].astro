@@ -8,6 +8,10 @@ import Hero from '../../components/Hero.astro';
 import Icon from '../../components/Icon.astro';
 import Pill from '../../components/Pill.astro';
 
+// This is a fix for "Cannot read properties of undefined (reading 'render')"
+// See: https://github.com/withastro/astro/issues/6007
+export const prerender = true
+
 interface Props {
 	entry: CollectionEntry<'work'>;
 }
